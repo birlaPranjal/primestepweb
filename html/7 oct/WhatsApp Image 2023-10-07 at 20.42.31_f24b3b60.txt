@@ -1,0 +1,12 @@
+Programming Questions:
+1. WAP to remove all the even data from given array.
+2. WAP to merge two sorted arrays into third array, (sorted form)
+
+Inputl: [4, 7, le, 11, 15]
+Input2: [2, 8, 9, 17]
+
+Output: [2, 4, 7, 8, 9, 10, 11, 15, 17]
+3. WAP to find kth largest/smallest element from given array.
+4. WAP to print all the pairs whose sum equals to k
+
+**%5, WAP to remove all the duplicate elements the given array.

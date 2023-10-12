@@ -1,0 +1,19 @@
+What is brute force approach of solving a particular problem?
+
+e How can you minimize the complexity of an algorithm in terms of space?
+
+e How can you optimize the time complexity of an algorithm?
+
+e What is big O notation? What is best, average and worst cases in terms of time and space?
+* What is abstract data type and what are the properties of it?
+
+e Why do abstract data type don't have any implementation and uses details?
+
+e What are the differences between data structures and algorithms?
+
+* What are the operation that can be performed on any data structure?
+
+e Define different types of data structures?
+
+« Differentiate between the crud operation implemented by array and implemented by linked list.
+¢ What is static and dynamic array?

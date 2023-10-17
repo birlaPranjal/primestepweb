@@ -1,0 +1,142 @@
+*{
+    margin:0;
+}
+#container{
+    height:auto;
+    width: 95%;
+    margin: auto;
+}
+#header{
+    height:60px;
+    background-color: white;
+}
+#logo{
+    height: 60px;
+}
+#heading{
+    font-size: 32px;
+    font-family: candara;
+    position: absolute;
+    margin-top: 10px;
+}
+#nav{
+    z-index: 1;
+    top: 0;
+    position: sticky;
+    height:60px;
+    background-color: goldenrod;
+}
+#nav ul{
+    padding: 14px;
+    list-style: none;
+}
+#nav ul li{
+    display: inline;
+}
+#nav ul li a{
+    font-size: 23px;
+    color:white;
+    margin-left: 85px;
+    text-decoration: none;
+    font-family: candara;
+}
+#nav ul li a:hover{
+    color:black;
+}
+#nav ul li ul{
+    display: none;
+}
+#nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    background-color: goldenrod;
+    width: 200px;
+    margin-left: 330px;
+}
+#nav ul li ul li{
+    margin-left: -60px;
+    line-height: 40px;
+}
+#image,#banner{
+    height:570px;
+    width: 100%;
+}
+#mqdemo{
+    height:20px;
+    padding: 10px;
+    font-family: candara;
+    font-size: 20px;
+}
+#content{
+    background-color: whitesmoke;
+    font-family: candara;
+    height: 380px;
+    padding:50px;
+}
+#content1{
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+    font-family: candara;
+}
+#box{
+    padding: 30px;
+    height:450px;
+    font-family: candara;
+}
+#box1{
+    height:350px;
+    width: 325px;
+    margin: 10px;
+    float: left;
+}
+#boximage{
+    height:280px;
+    width: 325px;
+    border-radius: 0% 50% 0% 0%;
+}
+#leftbtn{
+    height: 32px;
+    width: 32px;
+    border:0px;
+    background-color: goldenrod;
+    color:black;
+    margin-left: 25px;
+    margin-top: 16px;
+}
+#rightbtn{
+    height: 32px;
+    width: 32px;
+    border:0px;
+    background-color: goldenrod;
+    color:black;
+    margin-top: 16px;
+}
+#field{
+    background-color: whitesmoke;
+    height: 32px;
+    width: 200px;
+    border:0px;
+    margin-top: 16px;
+}
+#about{
+    font-family: candara;
+    height:500px;
+    background-color: green;
+    padding: 30px;
+}
+#about1{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    margin: 10px;
+    float: left;
+    border-radius: 50%;
+}
+#about2{
+    height: 400px;
+    width: 930px;
+    background-color: red;
+    margin: 10px;
+    float: left;
+}

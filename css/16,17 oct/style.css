@@ -86,13 +86,13 @@
 }
 #box1{
     height:350px;
-    width: 325px;
+    width: 310px;
     margin: 10px;
     float: left;
 }
 #boximage{
     height:280px;
-    width: 325px;
+    width: 310px;
     border-radius: 0% 50% 0% 0%;
 }
 #leftbtn{
@@ -121,22 +121,78 @@
 }
 #about{
     font-family: candara;
-    height:500px;
-    background-color: green;
-    padding: 30px;
+    height:550px;
+    background-color: whitesmoke;
+    padding: 20px;
 }
 #about1{
     height: 400px;
     width: 400px;
-    background-color: red;
     margin: 10px;
     float: left;
     border-radius: 50%;
 }
-#about2{
+#aboutimg{
     height: 400px;
-    width: 930px;
-    background-color: red;
+    width: 400px;
+    border-radius: 50%;
+}
+#about2{
+    height: 450px;
+    width: 900px;
     margin: 10px;
     float: left;
+    font-size: 20px;
+    text-align: justify;
+}
+#gallerybackground{
+    height: 500px;
+    background-color: goldenrod;
+}
+#gallery{
+    font-family: candara;
+    background-color: white;
+    height: 500px;
+    border-radius: 0% 35% 0% 25%;
+}
+#gallery_img{
+    height:300px;
+    width: 300px;
+    margin: 20px;
+    transition: 2s;
+}
+#gallery_img:hover{
+    /* transform: scale(1.1); */
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+#contact{
+    height:500px;
+    padding: 20px;
+    background-color: green;
+    font-family: candara;
+}
+#contact1{
+    height:300px;
+    width: 240px;
+    padding: 20px;
+    margin: 5px;
+    font-family: candara;
+    font-size: 22px;
+    float: left;
+    background-color: red;
+}
+#contact2{
+    height:340px;
+    width: 470px;
+    margin: 5px;
+    float: left;
+    background-color: red;
+}
+iframe{
+    height:340px;
+    width: 470px;
+}
+#contactQ{
+    line-height: 40px;
 }
